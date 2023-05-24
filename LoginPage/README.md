@@ -12,7 +12,7 @@ Voici ce que vous devrez faire :
 Inspectez le code JavaScript sur la page.
 Remarquez comment il vérifie le mot de passe.
 Comprenez comment le mot de passe est calculé et déchiffrez le processus pour déterminer le mot de passe correct.
-Le mot de passe est une chaîne de 8 caractères. Pour chaque caractère, un calcul est effectué en ajoutant 0xCAFE (48879 en décimal) à sa valeur ASCII. Le résultat du calcul pour chaque caractère est le suivant :
+Le mot de passe est une chaîne de 8 caractères. Pour chaque caractère, un calcul est effectué en ajoutant 0xCAFE à sa valeur ASCII. Le résultat du calcul pour chaque caractère est le suivant :
 
 
 Premier caractère : 51999 
