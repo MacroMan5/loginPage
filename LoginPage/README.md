@@ -15,15 +15,15 @@ Comprenez comment le mot de passe est calculé et déchiffrez le processus pour 
 Le mot de passe est une chaîne de 8 caractères. Pour chaque caractère, un calcul est effectué en ajoutant 0xBeef (48879 en décimal) à sa valeur ASCII. Le résultat du calcul pour chaque caractère est le suivant :
 
 
-Premier caractère : 52040
-Deuxième caractère : 52068
-Troisième caractère : 52084
+Premier caractère : 51999 
+Deuxième caractère : 52046 
+Troisième caractère : 52030 
 Quatrième caractère : 52081
-Cinquième caractère : 52084
-Sixième caractère : 52072
-Septième caractère : 52085
-Huitième caractère : 52075
-Neuvième caractère : 52083
+Cinquième caractère : 52081 
+Sixième caractère : 52085 
+Septième caractère : 52014 
+Huitième caractère : 52080 
+Neuvième caractère : 52034 
 
 
 Pour retrouver les caractères originaux, vous devez soustraire 0xBeef des valeurs fournies et convertir les codes ASCII résultants en caractères.
