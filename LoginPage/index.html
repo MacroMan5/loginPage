@@ -34,15 +34,16 @@
           const v = document.getElementById("password").value;
           const p = Array.from(v).map(a => 0xCAFE + a.charCodeAt(0));
 
-          if(p[0] === 51999 &&
-             p[1] === 52046 &&
-             p[2] === 52030 &&
-             p[3] === 52081 &&
-             p[4] === 52081 &&
-             p[5] === 52085 &&
-             p[6] === 52014 &&
-             p[7] === 52080 &&
-             p[8] === 52034) {
+          if( 
+              p[2] === 52030 &&
+              p[6] === 52014 &&
+              p[8] === 52034 &&
+              p[5] === 52085 &&
+              p[4] === 52081 &&
+              p[0] === 51999 &&
+              p[1] === 52046 &&
+              p[7] === 52080
+            ) {
             window.location.replace(v + ".html");
           } else {
             alert("Wrong password!");
