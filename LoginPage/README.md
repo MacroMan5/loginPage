@@ -1,5 +1,5 @@
 
-Bien sûr, voici le fichier README.md traduit en français :
+
 
 Défi Capture The Flag - Vérification de Mot de Passe
 Bienvenue dans ce défi Capture The Flag (CTF) !
