@@ -1,5 +1,5 @@
 // The resultant values after each character of the password is added to 0xCAFE
-var resultant_values = [52040, 52068, 52084, 52081, 52084, 52072, 52085, 52075, 52083];
+var resultant_values = [51999, 52046, 52030, 52081, 52081, 52085, 52014, 52080, 52034];
 
 var password = "";
 for (var i = 0; i < resultant_values.length; i++) {
